@@ -51,7 +51,7 @@ if not api_key:
 
 client = Groq(api_key=api_key)
 
-MODEL = "qwen/qwen3.8-27b"
+MODEL = "openai/gpt-oss-120b"
 
 
 # Sidebar settings
